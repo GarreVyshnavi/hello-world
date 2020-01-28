@@ -1,0 +1,150 @@
+
+/* General */
+
+.omeros-viewall a, .omeros-viewall a:visited, .omeros-viewall a:hover {
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+	text-decoration : none;
+}
+
+#omeros-HRForms-header {
+	height: 48px;
+	background-color: #FCAA15;
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+}
+
+#omeros-HRForms-heading {
+	font-size : 24px;
+	display : inline-block;
+	padding : 10px;
+}
+
+#omeros-HRForms-heading div {
+	display : inline-block;
+}
+
+#omeros-HRForms-viewall {
+	font-size : 14px;
+	float : right;
+	padding : 15px;
+	font-family : Merriweather, Georgia, serif;
+}
+
+#omeros-HRForms-content {
+	border: 1px solid #F1F1F1;
+}
+
+#omeros-HRForms-content .list-group {
+	height: 465px;
+	overflow: auto;
+	width: 100%;
+	margin : 0px;
+}
+
+#omeros-hrforms .omeros-hrform {
+	padding: 24px 16px;
+	transition: box-shadow .3s;
+	border-radius : 0px !important;
+	border-left: 4px solid white;
+}
+
+#omeros-hrforms .omeros-hrform:hover {
+	box-shadow : 5px 5px 20px #F1F1F1;
+	border-left: 4px solid #348FC3;
+	background-color : #ffffff;
+	z-index : 2;
+}
+
+#omeros-hrforms .omeros-hrform a , #omeros-hrforms .omeros-hrform a:visited {
+	text-decoration : none;
+	color : #000000;
+}
+
+#omeros-hrforms .omeros-hrform-imagediv {
+	padding: 8px 16px 0px 16px;
+}
+
+#omeros-hrforms .omeros-hrform-imagediv img {
+	width : 30px;
+	height : 30px;
+}
+
+#omeros-hrforms .omeros-hrform-textdiv {
+	padding : 0px 0px 0px 16px;
+}
+
+#omeros-hrforms .omeros-hrform-title{
+	font-size: 20px;
+	line-height : 28px;
+    font-family: Merriweather, Georgia, serif;
+	overflow : hidden;
+	text-overflow : ellipsis;
+	display : -webkit-box;
+	-webkit-line-clamp : 2;
+	-webkit-box-orient : vertical;
+}
+
+#omeros-hrforms .omeros-hrform-author {
+	font-family : Work Sans;
+	font-size : 14px;
+	line-height : 20px;
+}
+
+#omeros-hrforms .omeros-hrform-author div {
+	display : inline-block;
+}
+
+#omeros-hrforms .omeros-hrform-modified {
+	float: right;
+	padding-right : 16px;
+}
+
+/* General End */
+
+
+
+@media only screen and (min-width: 1680px) and (max-width: 2560px) {
+	
+/* hrform */
+
+
+/* hrform End */
+
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1679px) {
+	
+/* hrform */
+
+
+
+/* hrform End */
+
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+/* hrform */
+
+
+
+/* hrform End */
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991x) {
+	
+/* hrform */
+
+
+
+/* hrform End */
+
+}

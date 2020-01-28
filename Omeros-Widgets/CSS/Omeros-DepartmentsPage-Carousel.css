@@ -1,0 +1,46 @@
+
+#departmentsCarousel .carousel-inner > .item > img,
+#departmentsCarousel .carousel-inner > .item > a > img {
+  margin: auto;
+  width : 100%;
+  height : 465px;
+}
+
+#departmentsCarousel .glyphicon-menu-left, #departmentsCarousel .glyphicon-menu-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+
+#departmentsCarousel .carousel-caption {
+  left : 0px;
+  text-align : left;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  color: #ffffff;
+  padding: 16px 16px 32px 16px;
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), #000000 );
+}
+
+#departmentsCarousel .carousel-caption div {
+  font-family : Merriweather, Georgia, serif;
+  font-size : 28px;
+  bottom : 0px;
+}
+
+#departmentsCarousel .carousel-caption p {
+  font-family : Work Sans;
+  font-size : 16px;
+}
+
+#departmentsCarousel .carousel-indicators {
+  bottom: 0px;
+}
+
+#departmentsCarousel .carousel-control {
+  width : 5%
+}
+
+

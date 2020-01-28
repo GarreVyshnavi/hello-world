@@ -1,0 +1,272 @@
+
+@media only screen and (min-width: 1680px) and (max-width: 2560px) {
+	
+	
+/*Quick Apps */
+
+#omeros-quickapps {
+	padding-right : 0px;
+}
+
+#omeros-quickapps .row {
+	margin : 0px;
+    padding-top: 15px;
+}
+
+#quickapp-emp-dir {
+    background: #005984;
+}
+
+#quickapp-org-chart {
+    background: #348FC3;
+}
+
+#quickapp-soft-apps {
+    background: #FCAA15;
+}
+
+#quickapp-hr {
+    background: #FCAA15;
+}
+
+#quickapp-training-materials {
+    background: #005984;
+}
+
+#quickapp-templates {
+    background: #348FC3;
+}
+
+.omeras-quickapp-card {
+	height : 207px;
+}
+
+.omeras-quickapp-img {
+    height: 102px;
+    width: 96px;
+}
+
+.omeras-quickapp-img-div {
+    padding: 40px 30px 30px 30px;
+    text-align: center;
+}
+
+.omeras-quickapp-text-div {
+    padding: 0px 0px 16px 16px;
+    color: white;
+    font-family: Merriweather, Georgia, serif;
+	font-size : 16px;
+}
+
+#omeros-quickapps .col-sm-4 {
+    padding: 0px 15px 0px 0px;
+}
+
+/*Quick Apps End*/
+
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1679px) {
+	
+	
+/*Quick Apps */
+
+#omeros-quickapps {
+	padding-right : 0px;
+}
+
+#omeros-quickapps .row {
+	margin : 0px;
+    padding-top: 15px;
+}
+
+#quickapp-emp-dir {
+    background: #005984;
+}
+
+#quickapp-org-chart {
+    background: #348FC3;
+}
+
+#quickapp-soft-apps {
+    background: #FCAA15;
+}
+
+#quickapp-hr {
+    background: #FCAA15;
+}
+
+#quickapp-training-materials {
+    background: #005984;
+}
+
+#quickapp-templates {
+    background: #348FC3;
+}
+
+.omeras-quickapp-card {
+	height : 207px;
+}
+
+.omeras-quickapp-img {
+    height: 102px;
+    width: 96px;
+}
+
+.omeras-quickapp-img-div {
+    padding: 40px 30px 30px 30px;
+    text-align: center;
+}
+
+.omeras-quickapp-text-div {
+    padding: 0px 0px 16px 16px;
+    color: white;
+    font-family: Merriweather, Georgia, serif;
+	font-size : 16px;
+}
+
+#omeros-quickapps .col-sm-4 {
+    padding: 0px 15px 0px 0px;
+}
+
+/*Quick Apps End*/
+
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+/*Quick Apps */
+
+#omeros-quickapps .row {
+	padding : 15px 0px 0px 16px;
+}
+
+#quickapp-emp-dir {
+    background: #005984;
+}
+
+#quickapp-org-chart {
+    background: #348FC3;
+}
+
+#quickapp-soft-apps {
+    background: #FCAA15;
+}
+
+#quickapp-hr {
+    background: #FCAA15;
+}
+
+#quickapp-training-materials {
+    background: #005984;
+}
+
+#quickapp-templates {
+    background: #348FC3;
+}
+
+.omeras-quickapp-card {
+	height : 207px;
+}
+
+.omeras-quickapp-img {
+    height: 102px;
+    width: 96px;
+}
+
+.omeras-quickapp-img-div {
+    padding: 30px 30px 10px 30px;
+    text-align: center;
+}
+
+.omeras-quickapp-text-div {
+    padding: 16px;
+    color: #ffffff;
+	font-size : 16px;
+	font-weight : Regular;
+    font-family: Merriweather, Georgia, serif;
+}
+
+#omeros-quickapps .col-sm-4 {
+    padding: 0px 16px 0px 0px;
+}
+
+#omeros-quickapps {
+	padding-bottom : 16px;
+}
+
+/*Quick Apps End*/
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+/*Quick Apps */
+
+#omeros-quickapps .row {
+	padding : 15px 0px 0px 16px;
+}
+
+#quickapp-emp-dir {
+    background: #005984;
+}
+
+#quickapp-org-chart {
+    background: #348FC3;
+}
+
+#quickapp-soft-apps {
+    background: #FCAA15;
+}
+
+#quickapp-hr {
+    background: #FCAA15;
+}
+
+#quickapp-training-materials {
+    background: #005984;
+}
+
+#quickapp-templates {
+    background: #348FC3;
+}
+
+.omeras-quickapp-card {
+	height : 207px;
+}
+
+.omeras-quickapp-img {
+    height: 102px;
+    width: 96px;
+}
+
+.omeras-quickapp-img-div {
+    padding: 30px 30px 10px 30px;
+    text-align: center;
+}
+
+.omeras-quickapp-text-div {
+    padding: 16px;
+    color: #ffffff;
+	font-size : 16px;
+	font-weight : Regular;
+    font-family: Merriweather, Georgia, serif;
+}
+
+#omeros-quickapps .col-sm-4 {
+    padding: 0px 16px 0px 0px;
+}
+
+#omeros-quickapps {
+	padding-bottom : 16px;
+}
+
+/*Quick Apps End*/
+
+}

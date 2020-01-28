@@ -1,0 +1,90 @@
+
+/* General */
+
+.omeros-viewall a, .omeros-viewall a:visited, .omeros-viewall a:hover {
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+	text-decoration : none;
+}
+
+#omeros-quickmenu-header {
+	height: 48px;
+	background-color:  #005984;
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+}
+
+#omeros-quickmenu-heading {
+	font-size : 24px;
+	line-height : 32px;
+	display : inline-block;
+	padding : 10px;
+}
+
+#omeros-quickmenu-heading div {
+	display : inline-block;
+}
+
+#omeros-quickmenu-viewall {
+	font-size : 14px;
+	float : right;
+	padding : 15px;
+	font-family : Merriweather, Georgia, serif;
+}
+
+#omeros-quickmenu-content {
+	border-top: 1px solid #F1F1F1;
+	background-color:  #005984;
+}
+
+#omeros-quickmenu-content .list-group {
+	height: 465px;
+	overflow: auto;
+	width: 100%;
+	margin : 0px;
+}
+
+#omeros-quick-menu .omeros-menu-link {
+	padding: 24px 16px;
+	border-radius : 0px !important;
+	border-left: 4px solid #005984;
+	background-color:  #005984;
+	border-bottom : 0px;
+	border-top : 0px;
+	border-right : 0px;
+}
+
+#omeros-quick-menu .omeros-menu-link:hover {
+	border-left: 4px solid  #ffffff;
+	background-color : #348FC3;
+	z-index : 2;
+	border-bottom : 0px;
+	border-top : 0px;
+	border-right : 0px;
+}
+
+#omeros-quick-menu .omeros-menu-link a , #omeros-quick-menu .omeros-menu-link a:visited {
+	text-decoration : none;
+	color : #ffffff;
+}
+
+.menu-link-content {
+	color : #ffffff;
+}
+
+.menu-link-text {
+	padding : 0px;
+	font-size : 16px;
+	line-height : 22px;
+	font-weight : regular;
+	font-family : Work Sans;
+	display: inline-block;
+}
+
+.menu-content-icondiv {
+	display: inline-block;
+    padding-right: 16px;
+    vertical-align: middle;
+}
+
+/* General End */

@@ -1,0 +1,563 @@
+
+
+@media only screen and (min-width: 1680px) and (max-width: 2560px) {
+	
+/* Weather */
+
+#omeros-weather .row {
+	margin : 0px;
+}
+	
+#weather-now {
+	background-color : #005984;
+	color : #ffffff;
+}
+
+#weather-now-degrees {
+	padding : 48px 0px;
+	text-align : center;
+}
+
+#weather-now-img-large {
+	display : inline-block;
+}
+
+#weather-now-img-large img {
+	width : 96px;
+	height : 60px;
+}
+
+#weather-now-data {
+	text-align : left;
+	display : inline-block;
+	vertical-align : middle;
+}
+
+#weather-now-temp {
+	font-size : 28px;
+	line-height : 32px;
+	font-family : Merriweather, Georgia, serif;
+}
+
+#weather-now-location {
+	display :inline-block;
+	padding : 16px;
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+}
+
+#weather-now-date {
+	display : inline-block;
+	float : right;
+	padding : 16px;
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+}
+
+.weather-hr-series {
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+	border-left : 1px solid #f1f1f1;
+	border-right : 1px solid #f1f1f1;
+}
+
+#wind-direction {
+	padding : 16px 0px 0px 16px;
+}
+
+#wind-speed {
+	padding : 16px 0px 0px 16px;
+}
+
+#weather-precipitation {
+	padding : 16px 0px 24px 16px;
+}
+
+#wind-direction img, #wind-speed img, #weather-precipitation img {
+	padding-right : 16px;
+}
+
+.weather-series div {
+	padding : 16px 0px 0px 0px;
+}
+
+.weather-series-past {
+	vertical-align : middle;
+	padding : 69px 0px;
+}
+
+#omeros-weather > .weather-hr-series > .col-sm-5, #omeros-weather > .weather-hr-series > .col-sm-2 {
+	padding : 0px;
+}
+
+.weather-day-data {
+	display : block;
+}
+
+.weather-day-img {
+	display : inline-block;
+}
+
+.weather-day-temp {
+	display : inline-block;
+	vertical-align : middle;
+}
+
+.weather-day {
+	padding : 16px;
+}
+
+.weather-day-data {
+	padding : 0px 0px 16px 16px;
+}
+
+.weather-day-temp2 {
+	font-size : 14px;
+	line-height : 20px;
+	font-family : Work Sans;
+	color :  #888888 ;
+}
+
+.weather-day-series {
+	border : 1px solid #f1f1f1;
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+}
+
+.weather-day-series .col-sm-4 {
+	border-right : 1px solid #f1f1f1;
+	padding : 0px;
+}
+
+/* Weather End */
+
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1679px) {
+	
+/* Weather */
+
+#omeros-weather .row {
+	margin : 0px;
+}
+	
+#weather-now {
+	background-color : #005984;
+	color : #ffffff;
+}
+
+#weather-now-degrees {
+	padding : 48px 0px;
+	text-align : center;
+}
+
+#weather-now-img-large {
+	display : inline-block;
+}
+
+#weather-now-img-large img {
+	width : 96px;
+	height : 60px;
+}
+
+#weather-now-data {
+	text-align : left;
+	display : inline-block;
+	vertical-align : middle;
+}
+
+#weather-now-temp {
+	font-size : 28px;
+	line-height : 32px;
+	font-family : Merriweather, Georgia, serif;
+}
+
+#weather-now-location {
+	display :inline-block;
+	padding : 16px;
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+}
+
+#weather-now-date {
+	display : inline-block;
+	float : right;
+	padding : 16px;
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+}
+
+.weather-hr-series {
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+	border-left : 1px solid #f1f1f1;
+	border-right : 1px solid #f1f1f1;
+}
+
+#wind-direction {
+	padding : 16px 0px 0px 16px;
+}
+
+#wind-speed {
+	padding : 16px 0px 0px 16px;
+}
+
+#weather-precipitation {
+	padding : 16px 0px 24px 16px;
+}
+
+#wind-direction img, #wind-speed img, #weather-precipitation img {
+	padding-right : 16px;
+}
+
+.weather-series div {
+	padding : 16px 0px 0px 0px;
+}
+
+.weather-series-past {
+	vertical-align : middle;
+	padding : 69px 0px;
+}
+
+#omeros-weather > .weather-hr-series > .col-sm-5, #omeros-weather > .weather-hr-series > .col-sm-2 {
+	padding : 0px;
+}
+
+.weather-day-data {
+	display : block;
+}
+
+.weather-day-img {
+	display : inline-block;
+}
+
+.weather-day-temp {
+	display : inline-block;
+	vertical-align : middle;
+}
+
+.weather-day {
+	padding : 16px;
+}
+
+.weather-day-data {
+	padding : 0px 0px 16px 16px;
+}
+
+.weather-day-temp2 {
+	font-size : 14px;
+	line-height : 20px;
+	font-family : Work Sans;
+	color :  #888888 ;
+}
+
+.weather-day-series {
+	border : 1px solid #f1f1f1;
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+}
+
+.weather-day-series .col-sm-4 {
+	border-right : 1px solid #f1f1f1;
+	padding : 0px;
+}
+
+/* Weather End */
+
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+/* Weather */
+
+#omeros-weather {
+	margin-top : 16px;
+}
+
+#omeros-weather .row {
+	margin : 0px;
+}
+	
+#weather-now {
+	background-color : #005984;
+	color : #ffffff;
+}
+
+#weather-now-degrees {
+	padding : 48px 0px;
+	text-align : center;
+}
+
+#weather-now-img-large {
+	display : inline-block;
+}
+
+#weather-now-img-large img {
+	width : 96px;
+	height : 60px;
+}
+
+#weather-now-data {
+	text-align : left;
+	display : inline-block;
+	vertical-align : middle;
+}
+
+#weather-now-temp {
+	font-size : 28px;
+	line-height : 32px;
+	font-family : Merriweather, Georgia, serif;
+}
+
+#weather-now-location {
+	display :inline-block;
+	padding : 16px;
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+}
+
+#weather-now-date {
+	display : inline-block;
+	float : right;
+	padding : 16px;
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+}
+
+.weather-hr-series {
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+	border-left : 1px solid #f1f1f1;
+	border-right : 1px solid #f1f1f1;
+}
+
+#wind-direction {
+	padding : 16px 0px 0px 16px;
+}
+
+#wind-speed {
+	padding : 16px 0px 0px 16px;
+}
+
+#weather-precipitation {
+	padding : 16px 0px 24px 16px;
+}
+
+#wind-direction img, #wind-speed img, #weather-precipitation img {
+	padding-right : 16px;
+}
+
+.weather-series div {
+	padding : 16px 0px 0px 0px;
+}
+
+.weather-series-past {
+	vertical-align : middle;
+	padding : 69px 0px;
+}
+
+#omeros-weather > .weather-hr-series > .col-sm-5, #omeros-weather > .weather-hr-series > .col-sm-2 {
+	padding : 0px;
+}
+
+.weather-day-data {
+	display : block;
+}
+
+.weather-day-img {
+	display : inline-block;
+}
+
+.weather-day-temp {
+	display : inline-block;
+	vertical-align : middle;
+}
+
+.weather-day {
+	padding : 16px;
+}
+
+.weather-day-data {
+	padding : 0px 0px 16px 16px;
+}
+
+.weather-day-temp2 {
+	font-size : 14px;
+	line-height : 20px;
+	font-family : Work Sans;
+	color :  #888888 ;
+}
+
+.weather-day-series {
+	border : 1px solid #f1f1f1;
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+}
+
+.weather-day-series .col-sm-4 {
+	border-right : 1px solid #f1f1f1;
+	padding : 0px;
+}
+
+/* Weather End */
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+/* Weather */
+
+#omeros-weather {
+	margin-top : 16px;
+}
+
+#omeros-weather .row {
+	margin : 0px;
+}
+	
+#weather-now {
+	background-color : #005984;
+	color : #ffffff;
+}
+
+#weather-now-degrees {
+	padding : 48px 0px;
+	text-align : center;
+}
+
+#weather-now-img-large {
+	display : inline-block;
+}
+
+#weather-now-img-large img {
+	width : 96px;
+	height : 60px;
+}
+
+#weather-now-data {
+	text-align : left;
+	display : inline-block;
+	vertical-align : middle;
+}
+
+#weather-now-temp {
+	font-size : 28px;
+	line-height : 32px;
+	font-family : Merriweather, Georgia, serif;
+}
+
+#weather-now-location {
+	display :inline-block;
+	padding : 16px;
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+}
+
+#weather-now-date {
+	display : inline-block;
+	float : right;
+	padding : 16px;
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+}
+
+.weather-hr-series {
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+	border-left : 1px solid #f1f1f1;
+	border-right : 1px solid #f1f1f1;
+}
+
+#wind-direction {
+	padding : 16px 0px 0px 16px;
+}
+
+#wind-speed {
+	padding : 16px 0px 0px 16px;
+}
+
+#weather-precipitation {
+	padding : 16px 0px 24px 16px;
+}
+
+#wind-direction img, #wind-speed img, #weather-precipitation img {
+	padding-right : 16px;
+}
+
+.weather-series div {
+	padding : 16px 0px 0px 0px;
+}
+
+.weather-series-past {
+	vertical-align : middle;
+	padding : 69px 0px;
+}
+
+#omeros-weather > .weather-hr-series > .col-sm-5, #omeros-weather > .weather-hr-series > .col-sm-2 {
+	padding : 0px;
+}
+
+.weather-day-data {
+	display : block;
+}
+
+.weather-day-img {
+	display : inline-block;
+}
+
+.weather-day-temp {
+	display : inline-block;
+	vertical-align : middle;
+}
+
+.weather-day {
+	padding : 16px;
+}
+
+.weather-day-data {
+	padding : 0px 0px 16px 16px;
+}
+
+.weather-day-temp2 {
+	font-size : 14px;
+	line-height : 20px;
+	font-family : Work Sans;
+	color :  #888888 ;
+}
+
+.weather-day-series {
+	border : 1px solid #f1f1f1;
+	font-size : 16px;
+	line-height : 22px;
+	font-family : Work Sans;
+}
+
+.weather-day-series .col-sm-4 {
+	border-right : 1px solid #f1f1f1;
+	padding : 0px;
+}
+
+/* Weather End */
+
+}

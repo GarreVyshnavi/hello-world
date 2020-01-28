@@ -1,0 +1,615 @@
+
+/* General */
+
+#omeros-calendar-viewall a, #omeros-calendar-viewall a:visited, #omeros-calendar-viewall a:hover {
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+	text-decoration : none;
+}
+
+.mdl2-share {
+	color : #348FC3;
+}
+
+.my-custom-scrollbar::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+.list-group {
+	margin : 0px;
+}
+
+
+@media only screen and (min-width: 1680px) and (max-width: 2560px) {
+	
+#omeros-calendar-climate {
+	padding : 16px 0px 0px 0px;
+}
+
+/*Calendar */
+
+#omeros-calendar {
+	padding : 0px 16px 0px 16px;
+}
+
+#omeros-calendar-header {
+	background-color : #001E2D;
+	height: 48px;
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+}
+
+#omeros-calendar-heading {
+	font-size : 24px;
+	line-height : 32px;
+	display : inline-block;
+}
+
+#omeros-calendar-heading img{
+	padding : 7px 10px;
+	color : #ffffff;
+}
+
+#omeros-calendar-heading div {
+	padding : 8px 0px;
+	display : inline-block;
+}
+
+#omeros-calendar-viewall {
+	font-size : 14px;
+	float : right;
+	padding : 15px;
+}
+
+#omeros-calendar-imageleft img {
+	width : 100%;
+	height : 465px;
+}
+
+.calendar-image-text {
+	position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #ffffff;
+    padding: 16px;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), #005984 );
+}
+
+.calendar-image-text small {
+	font-size : 14px;
+	line-height : 22px;
+	font-weight : regular;
+	font-family : Work Sans;
+}
+
+#omeros-calendar-events .list-group {
+	height: 465px;
+    overflow: auto;
+	border-bottom : 2px solid #f1f1f1;
+	border-right : 2px solid #f1f1f1;
+}
+
+#omeros-calendar-events > .row {
+	margin : 0px;
+}
+
+#omeros-calendar-events .row .col-sm-6 {
+	padding : 0px;
+}
+
+#omeros-calendar-events .omeros-calendar-event {
+	padding : 32px 0px;
+	transition: box-shadow .3s;
+	border-radius : 0px !important;
+	border-left: 4px solid white;
+}
+
+#omeros-calendar-events .omeros-calendar-event:hover {
+	box-shadow : 5px 5px 20px #F1F1F1;
+	z-index : 2;
+	border-left: 4px solid #348FC3;
+	background-color : #ffffff;
+}
+
+.calendar-event-content .row {
+	margin : 0px;
+}
+
+#omeros-calendar-events .omeros-calendar-event a , #omeros-calendar-events .omeros-calendar-event a:visited {
+	text-decoration : none;
+	color : #000000;
+}
+
+#omeros-calendar-events .omeros-calendar-event-imagediv img {
+	width : 64px;
+	height : 64px;
+}
+
+#omeros-calendar-events .omeros-calendar-event-textdiv div {
+	font-size: 20px;
+    font-family: Merriweather, Georgia, serif;
+	line-height : 28px;
+}
+
+#omeros-calendar-events .omeros-calendar-event-textdiv small {
+	font-size : 14px;
+	line-height : 20px;
+	font-weight : regular;
+	font-family : Work Sans;
+}
+
+#omeros-calendar-events .omeros-calendar-event-icondiv {
+	padding: 30px 16px 0px 20px;
+    font-size: 20px;
+}
+
+.calendar-event-textdiv-content {
+	font-size : 20px;
+	line-height : 28px;
+	font-weight : regular;
+	font-family : Merriweather, Georgia, serif;
+	overflow : hidden;
+	text-overflow : ellipsis;
+	display : -webkit-box;
+	-webkit-line-clamp : 2;
+	-webkit-box-orient : vertical;
+}
+
+.omeros-ellipses {
+	position: absolute;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 4px 10px 10px 10px;
+    line-height: 10px;
+    bottom: 0px;
+    z-index: 10;
+    font-size: 20px;
+    right: 48%;
+}
+
+/*Calendar End */
+
+#omeros-press-weather {
+	padding : 0px;
+}
+
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1679px) {
+
+/*Calendar */
+
+#omeros-calendar {
+	padding : 0px;
+}
+
+#omeros-calendar-header {
+	background-color : #001E2D;
+	height: 48px;
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+}
+
+#omeros-calendar-heading {
+	font-size : 24px;
+	line-height : 32px;
+	display : inline-block;
+}
+
+#omeros-calendar-heading img{
+	padding : 7px 10px;
+	color : #ffffff;
+}
+
+#omeros-calendar-heading div {
+	padding : 8px 0px;
+	display : inline-block;
+}
+
+#omeros-calendar-viewall {
+	font-size : 14px;
+	float : right;
+	padding : 15px;
+}
+
+#omeros-calendar-imageleft {
+	display: none;
+}
+
+#omeros-calendar-events .list-group {
+	height: 465px;
+    overflow: auto;
+	border-bottom : 2px solid #f1f1f1;
+	border-right : 2px solid #f1f1f1;
+	border-left : 2px solid #f1f1f1;
+}
+
+#omeros-calendar-events > .row {
+	margin : 0px;
+}
+
+#omeros-calendar-events .row .col-sm-6 {
+	padding : 0px;
+	width: 100%;
+}
+
+#omeros-calendar-events .omeros-calendar-event {
+	padding : 32px 0px;
+	transition: box-shadow .3s;
+	border-radius : 0px !important;
+	border-left: 4px solid white;
+}
+
+#omeros-calendar-events .omeros-calendar-event:hover {
+	box-shadow : 5px 5px 20px #F1F1F1;
+	z-index : 2;
+	border-left: 4px solid #348FC3;
+	background-color : #ffffff;
+}
+
+.calendar-event-content .row {
+	margin : 0px;
+}
+
+#omeros-calendar-events .omeros-calendar-event a , #omeros-calendar-events .omeros-calendar-event a:visited {
+	text-decoration : none;
+	color : #000000;
+}
+
+#omeros-calendar-events .omeros-calendar-event-imagediv img {
+	width : 64px;
+	height : 64px;
+}
+
+#omeros-calendar-events .omeros-calendar-event-textdiv div {
+	font-size: 20px;
+    font-family: Merriweather, Georgia, serif;
+	line-height : 28px;
+}
+
+#omeros-calendar-events .omeros-calendar-event-textdiv small {
+	font-size : 14px;
+	line-height : 20px;
+	font-weight : regular;
+	font-family : Work Sans;
+}
+
+#omeros-calendar-events .omeros-calendar-event-icondiv {
+	padding: 30px 16px 0px 20px;
+    font-size: 20px;
+}
+
+.calendar-event-textdiv-content {
+	font-size : 20px;
+	line-height : 28px;
+	font-weight : regular;
+	font-family : Merriweather, Georgia, serif;
+	overflow : hidden;
+	text-overflow : ellipsis;
+	display : -webkit-box;
+	-webkit-line-clamp : 2;
+	-webkit-box-orient : vertical;
+}
+
+.omeros-ellipses {
+	position: absolute;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 4px 10px 10px 10px;
+    line-height: 10px;
+    bottom: 0px;
+    z-index: 10;
+    font-size: 20px;
+    right: 48%;
+}
+
+/*Calendar End */
+
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+
+#omeros-carousel-quickapps > .col-sm-6, #omeros-calendar-climate > .col-sm-6 {
+	width : 100%;
+}
+
+/*Calendar */
+
+#omeros-calendar-imageleft img {
+	width : 100%;
+	height : 465px;
+}
+
+.calendar-image-text {
+	position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #ffffff;
+    padding: 16px 16px 32px 16px;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), #005984 );
+}
+
+.calendar-image-text small {
+	font-size : 14px;
+	line-height : 22px;
+	font-weight : regular;
+	font-family : Work Sans;
+}
+
+#omeros-calendar-events .list-group {
+	height: 465px;
+    overflow: auto;
+	border-bottom : 2px solid #f1f1f1;
+	border-right : 2px solid #f1f1f1;
+}
+
+#omeros-calendar-events .row {
+	margin : 0px;
+}
+
+#omeros-calendar-events .row .col-sm-6 {
+	padding : 0px;
+}
+
+#omeros-calendar-header {
+	background-color : #001E2D;
+	height: 48px;
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+}
+
+.glyphicon-calendar {
+	font-size : 14px;
+}
+
+#omeros-calendar-heading {
+	font-size : 24px;
+	display : inline-block;
+	padding : 10px;
+}
+
+#omeros-calendar-heading div {
+	display : inline-block;
+}
+
+#omeros-calendar-viewall {
+	font-size : 14px;
+	float : right;
+	padding : 14px;
+}
+
+#omeros-calendar-events .omeros-calendar-event {
+	padding : 32px 0px;
+	transition: box-shadow .3s;
+	border-radius : 0px !important;
+	border-left: 4px solid white;
+}
+
+#omeros-calendar-events .omeros-calendar-event:hover {
+	box-shadow : 5px 5px 20px #F1F1F1;
+	border-left: 4px solid #348FC3;
+	background-color : #ffffff;
+}
+
+/* #omeros-calendar-events .omeros-calendar-event:before{ */
+	/* display : none; */
+    /* content:''; */
+    /* display:block; */
+    /* width:0; */
+    /* height:0; */
+    /* position:absolute;     */
+    /* border-top: 8px solid transparent; */
+    /* border-bottom: 8px solid transparent;  */
+    /* border-right:8px solid black; */
+    /* left:-8px;     */
+    /* top:7px; */
+/* } */
+
+#omeros-calendar-events .omeros-calendar-event a , #omeros-calendar-events .omeros-calendar-event a:visited {
+	text-decoration : none;
+	color : #000000;
+}
+
+#omeros-calendar-events .omeros-calendar-event-imagediv img {
+	width : 64px;
+	height : 64px;
+}
+
+#omeros-calendar-events .omeros-calendar-event-textdiv div {
+	font-size: 20px;
+    font-family: Merriweather, Georgia, serif;
+	line-height : 28px;
+}
+
+#omeros-calendar-events .omeros-calendar-event-textdiv small {
+	font-size : 14px;
+	line-height : 20px;
+	font-weight : regular;
+	font-family : Work Sans;
+}
+
+#omeros-calendar-events .omeros-calendar-event-icondiv {
+	padding : 28px 0px 28px 20px;
+	font-size : 20px;
+}
+
+.calendar-event-textdiv-content {
+	font-size : 20px;
+	line-height : 28px;
+	font-weight : regular;
+	font-family : Merriweather, Georgia, serif;
+	overflow : hidden;
+	text-overflow : ellipsis;
+	display : -webkit-box;
+	-webkit-line-clamp : 2;
+	-webkit-box-orient : vertical;
+}
+
+.omeros-ellipses {
+	position: absolute;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 4px 10px 10px 10px;
+    line-height: 10px;
+    bottom: 0px;
+    z-index: 10;
+    font-size: 20px;
+    right: 48%;
+}
+
+/*Calendar End */
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+
+#omeros-carousel-quickapps > .col-sm-6, #omeros-calendar-climate > .col-sm-6 {
+	width : 100%;
+}
+
+
+/*Calendar */
+
+#omeros-calendar-imageleft img {
+	width : 100%;
+	height : 465px;
+}
+
+.calendar-image-text {
+	position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #ffffff;
+    padding: 16px 16px 32px 16px;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), #005984 );
+}
+
+.calendar-image-text small {
+	font-size : 14px;
+	line-height : 22px;
+	font-weight : regular;
+	font-family : Work Sans;
+}
+
+#omeros-calendar-events .list-group {
+	height: 465px;
+    overflow: auto;
+	border-bottom : 2px solid #f1f1f1;
+	border-right : 2px solid #f1f1f1;
+}
+
+#omeros-calendar-events .row {
+	margin : 0px;
+}
+
+#omeros-calendar-events .row .col-sm-6 {
+	padding : 0px;
+}
+
+#omeros-calendar-header {
+	background-color : #001E2D;
+	height: 48px;
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+}
+
+.glyphicon-calendar {
+	font-size : 14px;
+}
+
+#omeros-calendar-heading {
+	font-size : 24px;
+	display : inline-block;
+	padding : 10px;
+}
+
+#omeros-calendar-heading div {
+	display : inline-block;
+}
+
+#omeros-calendar-viewall {
+	font-size : 14px;
+	float : right;
+	padding : 14px;
+}
+
+#omeros-calendar-events .omeros-calendar-event {
+	padding : 32px 0px;
+	transition: box-shadow .3s;
+	border-radius : 0px !important;
+	border-left: 4px solid white;
+}
+
+#omeros-calendar-events .omeros-calendar-event:hover {
+	box-shadow : 5px 5px 20px #F1F1F1;
+	border-left: 4px solid #348FC3;
+	background-color : #ffffff;
+}
+
+/* #omeros-calendar-events .omeros-calendar-event:before{ */
+	/* display : none; */
+    /* content:''; */
+    /* display:block; */
+    /* width:0; */
+    /* height:0; */
+    /* position:absolute;     */
+    /* border-top: 8px solid transparent; */
+    /* border-bottom: 8px solid transparent;  */
+    /* border-right:8px solid black; */
+    /* left:-8px;     */
+    /* top:7px; */
+/* } */
+
+#omeros-calendar-events .omeros-calendar-event a , #omeros-calendar-events .omeros-calendar-event a:visited {
+	text-decoration : none;
+	color : #000000;
+}
+
+#omeros-calendar-events .omeros-calendar-event-imagediv img {
+	width : 64px;
+	height : 64px;
+}
+
+#omeros-calendar-events .omeros-calendar-event-textdiv div {
+	font-size: 20px;
+    font-family: Merriweather, Georgia, serif;
+	line-height : 28px;
+}
+
+#omeros-calendar-events .omeros-calendar-event-textdiv small {
+	font-size : 14px;
+	line-height : 20px;
+	font-weight : regular;
+	font-family : Work Sans;
+}
+
+#omeros-calendar-events .omeros-calendar-event-icondiv {
+	padding : 28px 0px 28px 20px;
+	font-size : 20px;
+}
+
+.calendar-event-textdiv-content {
+	font-size : 20px;
+	line-height : 28px;
+	font-weight : regular;
+	font-family : Merriweather, Georgia, serif;
+	overflow : hidden;
+	text-overflow : ellipsis;
+	display : -webkit-box;
+	-webkit-line-clamp : 2;
+	-webkit-box-orient : vertical;
+}
+
+/*Calendar End */
+
+
+}
+

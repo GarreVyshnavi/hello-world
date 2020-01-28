@@ -1,0 +1,160 @@
+
+/* General */
+
+.omeros-viewall a, .omeros-viewall a:visited, .omeros-viewall a:hover {
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+	text-decoration : none;
+}
+
+.mdl2-phone, .mdl2-mail {
+	color : #348FC3;
+}
+
+#omeros-staff-members .list-group {
+	border: 1px solid #F1F1F1;
+    padding: 0px;
+	height : 465px;
+	margin : 0px;
+	overflow: auto;
+	width: 100%;
+}
+
+#omeros-staff-header {
+	height: 48px;
+	background-color: #005984;
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+}
+
+#omeros-staff-heading {
+	font-size : 24px;
+	display : inline-block;
+	padding : 10px;
+}
+
+#omeros-staff-heading img{
+	padding : 7px 10px;
+	color : #ffffff;
+}
+
+#omeros-staff-heading div {
+	display : inline-block;
+}
+
+#omeros-staff-viewall {
+	font-size : 14px;
+	float : right;
+	padding : 15px;
+	font-family : Merriweather, Georgia, serif;
+}
+
+.omeros-staff-title {
+	font-family : Merriweather, Georgia, serif;
+	color : #000000;
+	font-size : 20px;
+}
+
+#omeros-staff-members .omeros-staff-member {
+	padding: 24px 16px;
+	transition: box-shadow .3s;
+	border-radius : 0px !important;
+	border-left: 4px solid white;
+}
+
+#omeros-staff-members .omeros-staff-member:hover {
+	box-shadow : 5px 5px 20px #F1F1F1;
+	border-left: 4px solid #348FC3;
+	background-color : #ffffff;
+	z-index : 2;
+}
+
+#omeros-staff-members .omeros-staff-member a , #omeros-staff-members .omeros-staff-member a:visited {
+	text-decoration : none;
+	color : #000000;
+}
+
+.omeros-staff-imagediv img {
+	width : 48px;
+	height : 48px;
+	border-radius : 50%;
+}
+
+.omeros-staff-textdiv {
+	padding : 0px;
+}
+
+.omeros-staff-textdiv div{
+	font-size: 20px;
+    font-family: Merriweather, Georgia, serif;
+	margin-bottom : 4px;
+}
+
+.omeros-staff-textdiv small{
+	font-size: 16px;
+    font-family: Work Sans;
+	color : #358FC3;
+}
+
+.omeros-staff-icondiv {
+	padding : 12px;
+	font-size: 24px;
+	color : #358FC3;
+}
+
+.omeros-staff-textdiv small i {
+	padding : 5px;
+	vertical-align : middle;
+}
+
+/* General End */
+
+
+
+@media only screen and (min-width: 1680px) and (max-width: 2560px) {
+	
+/* Staff Members */
+
+
+
+/* Staff Members End */
+
+}
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1679px) {
+	
+/* Staff Members */
+
+
+
+/* Staff Members End */
+
+}
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+/* Staff Members */
+
+
+/* Staff Members End */
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991x) {
+	
+/* Staff Members */
+
+
+
+/* Staff Members End */
+
+}

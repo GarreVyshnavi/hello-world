@@ -1,0 +1,471 @@
+
+/* General */
+
+#omeros-press-viewall a, #omeros-press-viewall a:visited, #omeros-press-viewall a:hover {
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+	text-decoration : none;
+}
+
+.mdl2-share {
+	color : #348FC3;
+}
+
+.my-custom-scrollbar::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+.list-group {
+	margin : 0px;
+}
+
+
+/* General End */
+
+
+#pageContentTitle {
+    display : none;
+}
+
+#DeltaPlaceHolderLeftNavBar, #s4-titlerow {
+	display: none !important;
+}
+
+#contentBox {
+	margin: 0px;
+}
+
+#omeros-bs-overrides {
+	margin-top : -65px;
+}
+
+#omeros-bs-overrides .container {
+    padding: 0px;
+    margin: 0px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contentwrapper {
+    margin: 0px !important;
+}
+#contentBox {
+    padding: 0px;
+}
+.ms-webpart-chrome-title {
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 1680px) and (max-width: 2560px) {
+	
+	
+/* Press release */
+
+#omeros-press {
+	border: 1px solid #F1F1F1;
+    padding: 0px;
+}
+
+#omeros-press .list-group {
+	height: 465px;
+	width: 100%;
+    overflow: auto;
+    margin-bottom: 0px;
+}
+
+#omeros-press-header {
+	height: 48px;
+	background-color: #348FC3;
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+}
+
+#omeros-press-heading {
+	font-size : 24px;
+	display : inline-block;
+	padding : 10px;
+}
+
+.glyphicon-star {
+	font-size : 14px;
+}
+
+#omeros-press-heading div {
+	display : inline-block;
+}
+
+#omeros-press-viewall {
+	font-size : 14px;
+	float : right;
+	padding : 15px;
+	font-family : Merriweather, Georgia, serif;
+}
+
+#omeros-press-releases {
+	width: 100%;
+}
+
+.omeros-press-title {
+	font-family : Merriweather, Georgia, serif;
+	color : #000000;
+	font-size : 20px;
+	overflow : hidden;
+	text-overflow : ellipsis;
+	display : -webkit-box;
+	-webkit-line-clamp : 2;
+	-webkit-box-orient : vertical;
+}
+
+#omeros-press-releases .omeros-press-release {
+	height: 142px;
+	padding: 26px 16px;
+	transition: box-shadow .3s;
+	border-radius : 0px !important;
+	border-left: 4px solid white;
+	border-bottom : 2px solid #ddd;
+	border-top : 0px;
+}
+
+#omeros-press-releases .omeros-press-release:hover {
+	box-shadow : 5px 5px 20px #F1F1F1;
+	border-left: 4px solid #348FC3;
+	background-color : #ffffff;
+	z-index : 2;
+	border-bottom : 0px;
+	border-top : 0px;
+}
+
+#omeros-press-releases .omeros-press-release a , #omeros-press-releases .omeros-press-release a:visited {
+	text-decoration : none;
+	color : #000000;
+}
+
+.omeros-press-author {
+	padding-top : 8px;
+}
+
+.omeros-press-author small {
+	display: inline-block;
+	font-family : Work Sans;
+	font-size : 14px;
+}
+
+.omeros-press-modified {
+	float: right;
+}
+
+/* Press release End */
+
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1679px) {
+	
+	
+/* Press release */
+
+#omeros-press {
+	border: 1px solid #F1F1F1;
+    padding: 0px;
+}
+
+#omeros-press .list-group {
+	height: 465px;
+	width: 100%;
+    overflow: auto;
+    margin-bottom: 0px;
+}
+
+#omeros-press-header {
+	height: 48px;
+	background-color: #348FC3;
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+}
+
+#omeros-press-heading {
+	font-size : 24px;
+	display : inline-block;
+	padding : 10px;
+}
+
+.glyphicon-star {
+	font-size : 14px;
+}
+
+#omeros-press-heading div {
+	display : inline-block;
+}
+
+#omeros-press-viewall {
+	font-size : 14px;
+	float : right;
+	padding : 15px;
+	font-family : Merriweather, Georgia, serif;
+}
+
+#omeros-press-releases {
+	width: 100%;
+}
+
+.omeros-press-title {
+	font-family : Merriweather, Georgia, serif;
+	color : #000000;
+	font-size : 20px;
+	overflow : hidden;
+	text-overflow : ellipsis;
+	display : -webkit-box;
+	-webkit-line-clamp : 2;
+	-webkit-box-orient : vertical;
+}
+
+#omeros-press-releases .omeros-press-release {
+	height: 142px;
+	padding: 26px 16px;
+	transition: box-shadow .3s;
+	border-radius : 0px !important;
+	border-left: 4px solid white;
+	border-bottom : 2px solid #ddd;
+	border-top : 0px;
+}
+
+#omeros-press-releases .omeros-press-release:hover {
+	box-shadow : 5px 5px 20px #F1F1F1;
+	border-left: 4px solid #348FC3;
+	background-color : #ffffff;
+	z-index : 2;
+	border-bottom : 0px;
+	border-top : 0px;
+}
+
+#omeros-press-releases .omeros-press-release a , #omeros-press-releases .omeros-press-release a:visited {
+	text-decoration : none;
+	color : #000000;
+}
+
+.omeros-press-author {
+	padding-top : 8px;
+}
+
+.omeros-press-author small {
+	display: inline-block;
+	font-family : Work Sans;
+	font-size : 14px;
+}
+
+.omeros-press-modified {
+	float: right;
+}
+
+/* Press release End */
+
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+/* Press release */
+
+#omeros-press {
+	border: 1px solid #F1F1F1;
+    padding: 0px;
+	margin : 16px 0px 0px 0px;
+}
+
+#omeros-press-header {
+	height: 48px;
+	background-color: #348FC3;
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+}
+
+#omeros-press-heading {
+	font-size : 20px;
+	display : inline-block;
+	padding : 10px;
+}
+
+.glyphicon-star {
+	font-size : 14px;
+}
+
+#omeros-press-heading div {
+	display : inline-block;
+}
+
+#omeros-press-viewall {
+	font-size : 14px;
+	float : right;
+	padding : 14px;
+}
+
+#omeros-press .list-group {
+	height: 465px;
+	width: 100%;
+    overflow: auto;
+}
+
+#omeros-press-releases {
+	width: 100%;
+}
+
+.omeros-press-title {
+	font-family : Merriweather, Georgia, serif;
+	color : #000000;
+	font-size : 20px;
+	line-height : 28px;
+	overflow : hidden;
+	text-overflow : ellipsis;
+	display : -webkit-box;
+	-webkit-line-clamp : 2;
+	-webkit-box-orient : vertical;
+}
+
+#omeros-press-releases .omeros-press-release {
+	padding: 24px 16px 24px 12px;
+	transition: box-shadow .3s;
+	border-radius : 0px !important;
+	border-left: 4px solid white;
+}
+
+#omeros-press-releases .omeros-press-release:hover {
+	box-shadow : 5px 5px 20px #F1F1F1;
+	border-left: 4px solid #348FC3;
+	background-color : #ffffff;
+}
+
+#omeros-press-releases .omeros-press-release a , #omeros-press-releases .omeros-press-release a:visited {
+	text-decoration : none;
+	color : #000000;
+}
+
+.omeros-press-author {
+	font-family : Work Sans;
+	font-size : 14px;
+	line-height : 20px;
+	padding-top : 8px;
+}
+
+.omeros-press-author small {
+	display: inline-block;
+	font-family : Work Sans;
+	font-size : 14px;
+	line-height : 20px;
+}
+
+.omeros-press-modified {
+	float: right;
+}
+
+/* Press release End */
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+/* Press release */
+
+#omeros-press {
+	border: 1px solid #F1F1F1;
+    padding: 0px;
+	margin : 16px 0px 0px 0px;
+}
+
+#omeros-press-header {
+	height: 48px;
+	background-color: #348FC3;
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+}
+
+#omeros-press-heading {
+	font-size : 20px;
+	display : inline-block;
+	padding : 10px;
+}
+
+.glyphicon-star {
+	font-size : 14px;
+}
+
+#omeros-press-heading div {
+	display : inline-block;
+}
+
+#omeros-press-viewall {
+	font-size : 14px;
+	float : right;
+	padding : 14px;
+}
+
+#omeros-press .list-group {
+	height: 465px;
+	width: 100%;
+    overflow: auto;
+}
+
+#omeros-press-releases {
+	width: 100%;
+}
+
+.omeros-press-title {
+	font-family : Merriweather, Georgia, serif;
+	color : #000000;
+	font-size : 20px;
+	line-height : 28px;
+	overflow : hidden;
+	text-overflow : ellipsis;
+	display : -webkit-box;
+	-webkit-line-clamp : 2;
+	-webkit-box-orient : vertical;
+}
+
+#omeros-press-releases .omeros-press-release {
+	padding: 24px 16px 24px 12px;
+	transition: box-shadow .3s;
+	border-radius : 0px !important;
+	border-left: 4px solid white;
+}
+
+#omeros-press-releases .omeros-press-release:hover {
+	box-shadow : 5px 5px 20px #F1F1F1;
+	border-left: 4px solid #348FC3;
+	background-color : #ffffff;
+}
+
+#omeros-press-releases .omeros-press-release a , #omeros-press-releases .omeros-press-release a:visited {
+	text-decoration : none;
+	color : #000000;
+}
+
+.omeros-press-author {
+	font-family : Work Sans;
+	font-size : 14px;
+	line-height : 20px;
+	padding-top : 8px;
+}
+
+.omeros-press-author small {
+	display: inline-block;
+	font-family : Work Sans;
+	font-size : 14px;
+	line-height : 20px;
+}
+
+.omeros-press-modified {
+	float: right;
+}
+
+/* Press release End */
+
+}

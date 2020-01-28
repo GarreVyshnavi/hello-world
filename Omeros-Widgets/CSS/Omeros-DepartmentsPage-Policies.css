@@ -1,0 +1,227 @@
+
+/* General */
+
+.omeros-viewall a, .omeros-viewall a:visited, .omeros-viewall a:hover {
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+	text-decoration : none;
+}
+
+#omeros-policies-header {
+	height: 48px;
+	background-color: #348FC3;
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+}
+
+#omeros-policies-heading {
+	font-size : 24px;
+	display : inline-block;
+	padding : 10px;
+}
+
+.glyphicon-star {
+	font-size : 14px;
+}
+
+#omeros-policies-heading div {
+	display : inline-block;
+}
+
+#omeros-policies-viewall {
+	font-size : 14px;
+	float : right;
+	padding : 15px;
+	font-family : Merriweather, Georgia, serif;
+}
+
+#omeros-policies .omeros-policy {
+	padding: 24px 16px;
+	transition: box-shadow .3s;
+	border-radius : 0px !important;
+	border-left: 4px solid white;
+	border-bottom : 2px solid #ddd;
+	border-top : 0px;
+	border-right : 0px;
+}
+
+#omeros-policies .omeros-policy:hover {
+	box-shadow : 5px 5px 20px #F1F1F1;
+	border-left: 4px solid #348FC3;
+	background-color : #ffffff;
+	border-bottom : 2px solid white;
+	border-top : 0px;
+	border-right : 0px;
+	z-index : 2;
+}
+
+#omeros-policies .omeros-policy a , #omeros-policies .omeros-policy a:visited {
+	text-decoration : none;
+	color : #000000;
+}
+
+#omeros-policies .omeros-policy-imagediv {
+	padding : 0px;
+}
+
+#omeros-policies .omeros-policy-textdiv {
+	padding : 0px;
+}
+
+#omeros-policies .omeros-policy-title{
+	font-size: 20px;
+	line-height : 28px;
+    font-family: Merriweather, Georgia, serif;
+	overflow : hidden;
+	text-overflow : ellipsis;
+	display : -webkit-box;
+	-webkit-line-clamp : 2;
+	-webkit-box-orient : vertical;
+}
+
+#omeros-policies .omeros-policy-author {
+	font-family : Work Sans;
+	font-size : 14px;
+	line-height : 20px;
+}
+
+#omeros-policies .omeros-policy-author div {
+	display : inline-block;
+}
+
+#omeros-policies .omeros-policy-modified {
+	float: right;
+	padding-right : 16px;
+}
+
+
+
+/* General End */
+
+@media only screen and (min-width: 1680px) and (max-width: 2560px) {
+
+
+/* policy */
+
+#omeros-policies-content-3-column-view {
+	display: none;
+}
+
+#omeros-policies-content-2-column-view {
+	display: none;
+}
+
+#omeros-policies-content {
+	border: 1px solid #F1F1F1;
+}
+
+#omeros-policies-content .list-group {
+	border: 1px solid #F1F1F1;
+	height : 946px;
+}
+
+
+/* policy End */
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1679px) {
+
+
+/* policy */
+
+
+#omeros-policies-content {
+	display: none;
+}
+
+#omeros-policies-content-2-column-view {
+	display: none;
+}
+
+#omeros-policies-content-3-column-view {
+	border: 1px solid #F1F1F1;
+}
+
+#omeros-policies-content-3-column-view .list-group {
+	border: 1px solid #F1F1F1;
+	height : 465px;
+}
+
+#omeros-policies-content-3-column-view .row {
+	padding: 0px;
+	margin: 0px;
+}
+
+#omeros-policies-content-3-column-view .row .col-sm-4 {
+	padding: 0px;
+}
+
+/* policy End */
+
+
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+/* policy */
+
+#omeros-policies-content-3-column-view {
+	display: none;
+}
+
+#omeros-policies-content {
+	display: none;
+}
+
+#omeros-policies-content-2-column-view {
+	border: 1px solid #F1F1F1;
+}
+
+#omeros-policies-content-2-column-view .list-group {
+	border: 1px solid #F1F1F1;
+	height : 465px;
+}
+
+#omeros-policies-content-2-column-view .row {
+	padding: 0px;
+	margin: 0px;
+}
+
+#omeros-policies-content-2-column-view .row .col-sm-6 {
+	padding: 0px;
+}
+
+/* policy End */
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991x) {
+
+
+/* policy */
+
+#omeros-policies-content-3-column-view {
+	display: none;
+}
+
+#omeros-policies-content {
+	border: 1px solid #F1F1F1;
+}
+
+#omeros-policies-content .list-group {
+	border: 1px solid #F1F1F1;
+	height : 946px;
+}
+
+/* policy End */
+
+}

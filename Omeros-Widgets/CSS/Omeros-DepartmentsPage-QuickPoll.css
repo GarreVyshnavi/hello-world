@@ -1,0 +1,82 @@
+
+/* General */
+
+.omeros-viewall a, .omeros-viewall a:visited, .omeros-viewall a:hover {
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+	text-decoration : none;
+}
+
+#omeros-quickpoll-header {
+	height: 48px;
+	background-color: #001E2D;
+	font-family : Merriweather, Georgia, serif;
+	color : #ffffff;
+}
+
+#omeros-quickpoll-heading {
+	font-size : 24px;
+	display : inline-block;
+	padding : 10px;
+}
+
+#omeros-quickpoll-heading div {
+	display : inline-block;
+}
+
+#omeros-quickpoll-viewall {
+	font-size : 14px;
+	float : right;
+	padding : 15px;
+	font-family : Merriweather, Georgia, serif;
+}
+
+#omeros-quickpoll-content {
+	height: 465px;
+	padding: 0px 16px;
+	border: 1px solid #f1f1f1;
+	position: relative;
+}
+
+#poll-topic {
+	padding: 24px 0px 20px 0px;
+	font-family : Merriweather, Georgia, serif;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+#poll-options .radio {
+	font-family : Work-Sans;
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.poll-option {
+	padding: 20px 0px;
+}
+
+.poll-option-view {
+	float: right;
+}
+
+#poll-vote {
+	position: absolute;
+    bottom: 24px;
+    left: 40%;
+}
+
+#poll-vote-button {
+	border: 1px solid #348FC3;
+	bottom: 24px;
+	font-family : Merriweather, Georgia, serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	border-radius: 0px;
+	color: #348FC3;
+}
+
+
+/* General End */
